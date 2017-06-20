@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-tagline: titles and taglines
+tagline: titles, taglines, and chewers
 ---
 
 ~
@@ -53,6 +53,29 @@ This is only in the book!
 
 This is the next slide!
 ```
+
+~
+
+You can enable chewers with an mc2.config.js
+```
+var chewHighlight = require('mc2/dist/plugins/chewHighlight');
+var ditaa = require('mc2/dist/plugins/chewDitaa');
+var dot = require('mc2/dist/plugins/chewDot');
+
+module.exports = {
+    earlyChewers: [
+        ditaa.chew,
+        dot.chew,
+        chewHighlight.early
+    ],
+    chewers: [
+        chewHighlight.late
+    ],
+    delivery: "Edument Talk Day"
+};
+```
+Book:
+Checkout the MC2 documentation or bug David, Erik or Stephen if you need more info about chewers
 
 ~
 

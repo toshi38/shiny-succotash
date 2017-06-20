@@ -10,7 +10,7 @@ We're welcoming more contributors!
 [Jira - MC2](https://edument.atlassian.net/secure/RapidBoard.jspa?rapidView=36&projectKey=MC)
 
 Book:
-We hope that you enjoy using MC2 but we of course know theres more bugs.  Feel free to file these bugs
+We hope that you enjoy using MC2 but we of course know there are more bugs.  Feel free to file these bugs
 directly in jira so that we can track, prioritize, and fix them.
 
 ~
