@@ -80,7 +80,7 @@ Checkout the MC2 documentation or bug David, Erik or Stephen if you need more in
 ~
 
 Ditaa Drawings
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
 ```
@@ -115,7 +115,7 @@ also means that in the future these will be created with the different backgroun
 vs presentations.
 ~
 Dot Graphs
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
 ```
